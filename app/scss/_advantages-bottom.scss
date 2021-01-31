@@ -1,0 +1,55 @@
+.advantages-bottom {
+
+    &__title {
+        margin-top: 80px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    &__block {
+        margin-top: 70px;
+        padding-bottom: 55px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__element {
+        display: flex;
+    }
+
+    &__img {
+        &._first {
+            margin-top: -20px;
+            margin-left: -5px;
+        }
+        &._second {
+            margin-top: -30px;
+            margin-left: -5px;
+        }
+        &._third {
+            margin-top: -8px;
+            margin-left: 25px;
+            margin-right: 3px;
+        }
+        &._fourth {
+            margin-top: -37px;
+            margin-left: 5px;
+            margin-right: 10px;
+        }
+    }
+
+    &__desc {
+        font-size: 14px;
+        width: 188px;
+        & span {
+            font-weight: bold;
+			text-transform: uppercase;
+			display: block;
+        }
+        &._last {
+            width: 220px;
+        }
+    }
+}
